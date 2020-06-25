@@ -1,24 +1,140 @@
 {
-  "posts": [
+  "currentStatus": {
+    "bugdet": {
+      "price": 24000,
+      "rate": 12
+    },
+    "users": {
+      "total": 1600,
+      "rate": -16
+    },
+    "tasks": {
+      "progress": 75.5
+    },
+    "profit": {
+      "price": 23200
+    }
+  },
+  "latestSales": {
+    "labels": ["1 Aug", "2 Aug", "3 Aug", "4 Aug", "5 Aug", "6 Aug"],
+    "datasets": [
+      {
+        "label": "This year",
+        "barThickness": 12,
+        "barPercentage": 0.5,
+        "categoryPercentage": 0.5,
+        "maxBarThickness": 10,
+        "backgroundColor": "palette.primary.main",
+        "data": [18, 5, 19, 27, 29, 19, 20]
+      },
+      {
+        "label": "Last year",
+        "barThickness": 12,
+        "barPercentage": 0.5,
+        "categoryPercentage": 0.5,
+        "maxBarThickness": 10,
+        "backgroundColor": "palette.neutral",
+        "data": [11, 20, 12, 29, 30, 25, 13]
+      }
+    ]
+  },
+  "usersByDevice": {
+    "labels": ["Desktop", "Tablet", "Mobile"],
+    "datasets": [
+      {
+        "data": [63, 15, 22],
+        "backgroundColor": [
+          "theme.palette.primary.main",
+          "theme.palette.error.main",
+          "theme.palette.warning.main"
+        ],
+        "borderWidth": 8,
+        "borderColor": "theme.palette.white",
+        "hoverBorderColor": "theme.palette.white"
+      }
+    ]
+  },
+  "latestProducts": [
     {
-      "id": 1,
-      "title": "hello"
+      "name": "Dropbox",
+      "imageUrl": ",/images/products/product_1.png",
+      "updatedAt": "2020-06-25T11:30+09:00"
+    },
+    {
+      "name": "Medium Corporation",
+      "imageUrl": ",/images/products/product_2.png",
+      "updatedAt": "2020-06-25T12:30+09:00"
+    },
+    {
+      "name": "Slack",
+      "imageUrl": ",/images/products/product_3.png",
+      "updatedAt": "2020-06-25T16:30+09:00"
+    },
+    {
+      "name": "Lyft",
+      "imageUrl": ",/images/products/product_4.png",
+      "updatedAt": "2020-06-25T18:30+09:00"
+    },
+    {
+      "name": "GitHub",
+      "imageUrl": ",/images/products/product_5.png",
+      "updatedAt": "2020-06-25T20:30+09:00"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  },
-  "budget": {
-    "price": 2400,
-    "fluctuation": 12
-  },
-  "users": {
-    "total": 1600
-  },
-  "tasks": {
-    "progress": 75.5
-  },
-  "profit": {
-    "total": 23200
-  }
+  "latestOrders": [
+    {
+      "ref": "CDD1049",
+      "amount": 30.5,
+      "customer": {
+        "name": "Ekaterina Tankova"
+      },
+      "createdAt": 1555016400000,
+      "status": "pending"
+    },
+    {
+      "ref": "CDD1048",
+      "amount": 25.1,
+      "customer": {
+        "name": "Cao Yu"
+      },
+      "createdAt": 1555016400000,
+      "status": "delivered"
+    },
+    {
+      "ref": "CDD1047",
+      "amount": 10.99,
+      "customer": {
+        "name": "Alexa Richardson"
+      },
+      "createdAt": 1554930000000,
+      "status": "refunded"
+    },
+    {
+      "ref": "CDD1046",
+      "amount": 96.43,
+      "customer": {
+        "name": "Anje Keizer"
+      },
+      "createdAt": 1554757200000,
+      "status": "pending"
+    },
+    {
+      "ref": "CDD1045",
+      "amount": 32.54,
+      "customer": {
+        "name": "Clarke Gillebert"
+      },
+      "createdAt": 1554670800000,
+      "status": "delivered"
+    },
+    {
+      "ref": "CDD1044",
+      "amount": 16.76,
+      "customer": {
+        "name": "Adam Denisov"
+      },
+      "createdAt": 1554670800000,
+      "status": "delivered"
+    }
+  ]
 }
