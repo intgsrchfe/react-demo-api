@@ -7,5 +7,18 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "budget": {
+    "price": 2400,
+    "fluctuation": 12
+  },
+  "users": {
+    "total": 1600
+  },
+  "tasks": {
+    "progress": 75.5
+  },
+  "profit": {
+    "total": 23200
   }
 }
