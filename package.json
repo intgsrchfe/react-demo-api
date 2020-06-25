@@ -1,0 +1,24 @@
+{
+  "name": "react-demo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intgsrchfe/react-demo-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intgsrchfe/react-demo-api/issues"
+  },
+  "homepage": "https://github.com/intgsrchfe/react-demo-api#readme",
+  "devDependencies": {
+    "json-server": "^0.16.1"
+  }
+}
